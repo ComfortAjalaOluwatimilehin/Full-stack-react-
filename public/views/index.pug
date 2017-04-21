@@ -1,0 +1,9 @@
+html
+	head
+		title  Fullstack practice app
+	body
+		div(id="app")!= html
+		script(type="text/javascript").
+			window.preloadedstate = !{JSON.stringify(preloadedState)}
+		script(src="/bundle.js", type="text/javascript")
+			
